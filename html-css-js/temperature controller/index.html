@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="outbox">
+        <h1>TEMPERATURE CONVERTER</h1>
+        <div id="inbox">
+            <div id="celbox">
+                <h2 id="out1">CELSIUS</h2>
+                <input type="number" id="input">
+            </div>
+            <div id="fahbox">
+                <h2 id="out2">FAHRENHIT</h2>
+                <h3 id="out3"></h3>
+            </div>
+        </div>
+        <div id="conbox">
+            <input type="radio" id="ctof" name="unit">
+            <label>CELSIUS &rarr; FAHRENHIT</label><BR>
+            <input type="radio" id="ftoc" name="unit">
+            <label>FAHRENHIT &rarr; CELSIUS</label><br><br>
+            <button onclick="con()">submit</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

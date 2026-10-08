@@ -1,0 +1,68 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+}
+#outbox{
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#num{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    border-color:green ;
+    box-shadow: 
+    0 0 5px #00C5FF, 
+    0 0 10px #00C5FF, 
+    0 0 20px #00C5FF, 
+    0 0 40px #00C5FF;
+}
+#num:focus {
+    outline: none;
+    box-shadow:
+        0 0 10px #00C5FF,
+        0 0 20px #00C5FF,
+        0 0 40px #00C5FF;
+}
+#button{
+    text-align: center;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 
+    0 0 5px #00C5FF, 
+    0 0 10px #00C5FF, 
+    0 0 20px #00C5FF, 
+    0 0 40px #00C5FF;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 20px #00C5FF;
+}
+#res{
+    text-align: center;
+    margin-top: 50px;
+}

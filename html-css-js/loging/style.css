@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+#outbox{
+    border: none;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+#logbox,#signbox{
+    display: none;
+}
+button{
+    align-items: center;
+}
+#logstart,#signstart{
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+}
+#logstart button{
+    margin-left: 10px ;
+    background-color: #F4F2FF;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+#signstart button{
+    margin-left: 10px;
+    background: linear-gradient(135deg, #6A5AE0, #7765FF);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    color: white;
+}
+#logstart{
+    background: linear-gradient(135deg, #6A5AE0, #7765FF);
+    color: white
+}
+#signstart{
+    background-color: #F4F2FF;
+}
+#logstart button:hover{
+    background: #6A5AF9;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 20px rgba(6, 3, 35, 0.4);
+}
+#signstart button:hover{
+    background:#F4F2FF ;
+    color: black;
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 20px rgba(6, 3, 35, 0.4);
+}
+#logbox, #signbox {
+    display: none;
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+}

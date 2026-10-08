@@ -1,0 +1,35 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+#outbox{
+    background-color: blueviolet;
+    width: 600px;
+    height: 300px;
+}
+#inbox{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+#conbox{
+    text-align: center;
+    margin: 30px;
+}
+#ctof,#ftoc{
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#input{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
